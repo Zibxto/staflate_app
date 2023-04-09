@@ -22,6 +22,7 @@ It also supports some level of affiliate marketing through its referral program.
 ### Built With
 
 * PHP
+* Javascript
 * Apache
 * Bootstrap
 
