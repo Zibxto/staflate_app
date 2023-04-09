@@ -66,7 +66,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Christian Aziba - [email address] - christianaziba@gmail.com
+Christian Aziba - christianaziba@gmail.com
 
 Project Link: [https://github.com/zibxto/metareels_app](https://github.com/zibxto/metareels_app)
 
