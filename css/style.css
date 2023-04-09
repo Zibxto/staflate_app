@@ -1,0 +1,503 @@
+/*
+Items Name : Akmal
+Author : Ngetemplates
+-------------------------------- */
+
+/* ------------------------------
+  Import Google Web Font
+---------------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* ------------------------------
+  General
+---------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    background: #ffffff;
+    color: #6a6a6a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Heebo', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #0a0a0a;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #464646;
+}
+
+a:hover {
+    color: #ff5252;
+}
+
+p {
+    margin: 5px 0 15px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* ------------------------------
+  loader
+---------------------------------*/
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #0fa797;
+}
+
+.loader .loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loader .loading .aloader {
+    background: #f2c02f;
+}
+
+/* ------------------------------
+  button
+---------------------------------*/
+
+.button {
+    padding: 12px 30px;
+    background: #f2c02f;
+    color: #0a0a0a;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-radius: 0;
+    border: 0;
+    transition: 0.2s;
+    font-weight: 600;
+}
+
+.button:hover {
+    background: #101010;
+    color: #ffffff;
+    border-color: transparent;
+}
+
+.button2 {
+    padding: 12px 30px;
+    background: #f2c02f;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background: #fff;
+    color: #101010;
+    transition: 0.2s;
+    font-weight: 600;
+    border: 0;
+}
+
+.button2:hover {
+    background: #f2c02f;
+    color: #fff;
+}
+
+/* ------------------------------
+  navbar
+---------------------------------*/
+
+.navbar {
+    top: 0;
+    padding: 25px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    text-align: center;
+}
+
+.navbar .navbar-brand {
+    text-align: left;
+    width: 18%;
+}
+
+.navbar .navbar-brand img {
+    height: 45px;
+    width: auto;
+    position: relative;
+    top: -4px;
+}
+
+.navbar .navbar-brand:hover {
+    color: #0a0a0a;
+}
+
+.navbar .navbar-toggler {
+    padding: 0;
+}
+
+.navbar .navbar-toggler i {
+    font-size: 32px;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar .navbar-collapse {
+    position: relative;
+    width: 60%;
+    text-align: center;
+    left: -10px;
+}
+
+.navbar .navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar .navbar-nav li a {
+    color: #0a0a0a;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: #f2c02f;
+}
+
+.navbar .navbar-nav li .button {
+    color: #fff;
+    margin-top: -3px;
+    display: inline-block;
+    margin-right: -15px;
+}
+
+.navbar .button-navbar {
+    width: 20%;
+    float: right;
+    text-align: right;
+}
+
+.navbar .button-navbar li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.navbar-fixed {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0);
+    background: #fff;
+}
+
+/* ------------------------------
+  intro
+---------------------------------*/
+
+.intro {
+    padding-top: 100px;
+    background: linear-gradient(270deg, #0fa797 40%, #fff 0%);
+}
+
+.intro .content-text {
+    position: relative;
+    bottom: -90px;
+}
+
+.intro img {
+    position: relative;
+    bottom: -120px;
+}
+
+
+/* ------------------------------
+  about
+---------------------------------*/
+
+.about {
+    padding: 220px 27% 0;
+    text-align: center;
+}
+
+/* ------------------------------
+  space
+---------------------------------*/
+
+.space {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.space .content {
+    margin-bottom: 40px;
+}
+
+.space h2 {
+    margin-bottom: 30px;
+}
+
+.space h5 {
+    margin-top: 15px;
+}
+
+.space h3 {
+    margin: 15px 0 20px;
+}
+
+/* ------------------------------
+  testimonial
+---------------------------------*/
+
+.testimonial {
+    background: #0fa797;
+    padding: 100px 0;
+}
+
+.testimonial .swiper-button-next,
+.testimonial .swiper-button-prev {
+    color: #f2c02f;
+}
+
+.testimonial .swiper-button-next::after,
+.testimonial .swiper-button-prev::after {
+    font-size: 30px;
+}
+
+.testimonial .swiper .content {
+    text-align: center;
+    padding: 0 25%;
+    color: #fff;
+}
+
+.testimonial .swiper .content span {
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    color: #ddd;
+}
+
+.testimonial .swiper .content h5 {
+    font-size: 16px;
+    color: #fff;
+}
+
+/* ------------------------------
+gallery
+---------------------------------*/
+
+.gallery {
+    padding-top: 100px;
+}
+
+.gallery .row {
+    margin-bottom: 30px;
+}
+
+/* ------------------------------
+features
+---------------------------------*/
+
+.features {
+    padding-top: 120px;
+}
+
+.features .content-right {
+    padding-left: 100px;
+}
+
+.features .content {
+    border: 2px solid #eaf2f1;
+    padding: 35px 35px 20px;
+    margin-bottom: 50px;
+}
+
+.features .content i {
+    font-size: 80px;
+    color: #0fa797;
+}
+
+.features .content h5 {
+    margin-bottom: 30px;
+}
+
+.features .content1 {
+    margin-top: 50px;
+}
+
+.features .content4 {
+    margin-top: -50px;
+}
+
+/* ------------------------------
+  contact
+---------------------------------*/
+
+.contact {
+    padding-top: 60px;
+    padding-bottom: 95px;
+}
+
+.contact i {
+    height: 60px;
+    width: 60px;
+    background: #0fa797;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.contact .content-map iframe {
+    width: 100%;
+}
+
+/* ------------------------------
+  footer
+---------------------------------*/
+
+footer {
+    padding: 35px 0 35px;
+    font-size: 16px;
+    font-weight: 500;
+    background: #eaf2f1;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer ul li a i {
+    font-size: 20px;
+}
+
+footer .cp {
+    text-align: right;
+}
+
+/* ------------------------------
+  responsive
+---------------------------------*/
+
+@media (max-width: 991px) {
+    .navbar .navbar-collapse {
+        background: #fff;
+    }
+    .navbar .button-navbar {
+        display: none;
+    }
+    .about {
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+    .features .content-right {
+        padding-left: 0;
+    }
+    .features .content {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .contact .content-map iframe {
+        height: 365px;
+    }
+    .features .content4 {
+        margin-top: -70px;
+    }
+}
+
+@media (max-width: 767px) {
+    .space .button {
+        margin-bottom: 40px;
+    }
+    .testimonial .swiper .content {
+        padding: 0 12%;
+    }
+    .contact h2 {
+        margin-top: 30px;
+    }
+    .features .content4 {
+        margin-top: -50px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        padding: 0 25px;
+    }
+    h1 {
+        line-height: 59px;
+        font-size: 55px;
+    }
+    .about {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .features .content4 {
+        margin-top: 0;
+    }
+    footer {
+        text-align: center;
+    }
+    footer .cp {
+        text-align: center;
+        margin-top: 15px;
+    }
+}

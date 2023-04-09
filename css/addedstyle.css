@@ -1,0 +1,54 @@
+.gradient-custom {
+/* fallback for old browsers */
+background: #12c7b5 !important; 
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(15, 139, 167, 1), rgba(18, 199, 181, 1)) !important;
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(15, 167, 151, 1), rgba(18, 199, 181, 1)) !important;
+}
+
+.gradient-custom img {
+    width: 20%;
+    height: default;
+    margin-left: 2%;
+}
+
+.about p b {
+    font-size: 20px;
+}
+
+.about ol {
+    margin-top: 3%;
+    text-align: left;
+}
+
+.about ol li p {
+    padding-left: 2%;
+}
+
+.about ol li::marker 
+{
+    content: '\2741';
+    font-size: 1rem;
+    color: #f2c02f;
+    font-weight: normal;
+    padding-right: 100px;
+}
+
+.space ol li p {
+    padding-left: 2%;
+}
+
+.space ol li::marker 
+{
+    content: '\2741';
+    font-size: 1rem;
+    color: #f2c02f;
+    font-weight: normal;
+    padding-right: 100px;
+}
+
+
+
