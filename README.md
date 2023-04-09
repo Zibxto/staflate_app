@@ -46,7 +46,9 @@ To set up this application, you need a php environment
    git clone https://github.com/zibxto/metareels_app.git
    ```
 2. Install XAMPP
-   `https://www.apachefriends.org/download.html`
+    ```sh
+   https://www.apachefriends.org/download.html
+    ```
 
 <!-- CONTRIBUTING -->
 ### Contributing
