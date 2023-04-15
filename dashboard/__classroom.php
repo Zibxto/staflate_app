@@ -39,7 +39,7 @@ include 'header.php';
   background-color: white;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  transition: 0.2s ease-out;
 }
 </style>
 
@@ -65,28 +65,38 @@ include 'header.php';
                             <div class="panel info-box panel-white">
                                 <div class="panel-body">
                                     <div class="card">
-
-                                    <?php
-
-                                    // $c_sql = query("SELECT * FROM tutorial_video");
-                                    // confirm($c_sql);
-                                    
-
-                                    // $count = 0;
-                                    // $module = 1;
-                                    // while ($count  < mysqli_num_rows($c_sql)) {
-                                    //     while ($c_row = fetch_array($c_sql)){
-
-
-                                     ?>
                                         <div class="card-header">
-                                            <button class="accordion btn btn-success btn-block">Module </button>
-                                            <div class="panell" style="font-size: 16px">
-                                            <a href="#"></a>
-                                            </div> 
+                                            <?php 
 
-                                            
-                                        
+                                                $module = 1;
+                                                // $m_len = 2;
+                                                 
+                                                while ($module < 3)
+                                                {
+
+                                                $sql = query("SELECT * FROM tutorial_video WHERE module=$module");
+                                                confirm($sql);
+                                            ?>
+                                            <button class="accordion btn btn-success btn-block">Module <?= $module; ?></button>
+                                            <?php 
+                                                while ($row = fetch_array($sql)) {
+
+                                            ?>
+                                            <div class="panell" style="font-size: 16px">
+                                            <a href="__classroom.php?vid=<?php echo $row['youtube_id'] ?>"><?= $row['title'];?></a>
+                                            </div>
+
+                                        <?php 
+                                                
+
+                                                } 
+
+                                                // $m_len++;
+
+                                                $module++;
+                                            }  
+                                
+                                         ?>
                                         </div>
                                         
                                     </div>
@@ -95,6 +105,39 @@ include 'header.php';
                             </div>
                         </div>
 
+                        <div class="col-lg-8 col-md-8">
+                            <?php
+                            $vid = $_GET['vid'];
+
+                            $s_vid = query("SELECT * FROM tutorial_video WHERE youtube_id='$vid'");
+                            confirm($s_vid);
+                            $s_row = fetch_array($s_vid);
+
+                            // check if no vid id is passed in url
+
+                            if ($vid == 'null') {
+                                $s_row['title'] = "";
+                                $s_row['description'] = "";
+                                $vid = "E5RHzKxMYls"; // id to introductory vid
+                            }
+                            ?>
+                            <div class="panel info-box panel-white">
+                                <div class="panel-body">
+                                  <div class="card">
+                                   <a href="index.php"> <div class="card-body">
+                                        <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/<?= $vid ?>?modestbranding=1&&controls=1" frameborder="0" allow="accelerometer; autoplay; gyroscope;" allowfullscreen></iframe>
+                                    </div></a>
+                                    <div class="card-title">
+                                        <h3><?= $s_row['title']; ?></h3>
+                                    </div> <hr>
+                                    <div class="card-title">
+                                        <p><?= $s_row['description']; ?></p>
+                                    </div>
+                                      
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
                     </div><!-- Row -->
 
                 </div><!-- Main Wrapper -->

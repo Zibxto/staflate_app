@@ -135,7 +135,7 @@ $row = fetch_array($ru_sql);
                     <ul class="menu accordion-menu">
                         <li class="active"><a href="index.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-home"></span><p>Dashboard</p></a></li>
 
-                        <li><a href="classroom.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-education"></span><p>Classroom</p></a></li>
+                        <li><a href="__classroom.php?vid=null" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-education"></span><p>Classroom</p></a></li>
 
                         <li><a href="marketplace.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-shopping-cart"></span><p>Market Place</p></a></li>
 

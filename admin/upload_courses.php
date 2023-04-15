@@ -14,6 +14,10 @@ if (isset($_GET['uploaded'])) {
 if (isset($_GET['not_uploaded'])) {
     echo "<script>alert('Upload not Successful!')</script>";
 }
+
+if (isset($_GET['success'])) {
+    echo "<script>alert('Edited Successfully!')</script>";
+}
 // if (isset($_POST['upload'])) {
 //     $address = $_POST['address'];
 //     $file = $_FILES['image']['name'];
@@ -44,8 +48,8 @@ error_reporting(0);
                 <textarea style="width: 100%" name="description">ENTER DESCRIPTION</textarea> <br><br>
                 <label>Course Module</label><br>
                 <input type="number" name="module" class="form-control" placeholder="ENTER COURSE MODULE"> <br><br>
-                <label>Course Lesson</label><br>
-                <input type="number" name="lesson" class="form-control" placeholder="ENTER COURSE LESSON"> <br><br>
+                <!-- <label>Course Lesson</label><br>
+                <input type="number" name="lesson" class="form-control" placeholder="ENTER COURSE LESSON"> <br><br> -->
                 
                 <input type="submit" name="upload" value="UPLOAD" class="btn btn-success my-3">
                 
@@ -61,7 +65,7 @@ error_reporting(0);
         $description = escape_string($_POST['description']);
         $youtube_id = escape_string($_POST['youtube_id']);
         $module = escape_string($_POST['module']);
-        $lesson = escape_string($_POST['lesson']);
+        // $lesson = escape_string($_POST['lesson']);
         date_default_timezone_set('Africa/Lagos');
         $date_uploaded = date('m/d/Y h:i:s a', time());
        
@@ -73,7 +77,7 @@ error_reporting(0);
             header("location: upload_courses.php?upload_exist");
         } else {
 
-        $sql = "INSERT INTO tutorial_video (title,description,youtube_id,module,lesson,date_uploaded) VALUES ('$title','$description','$youtube_id','$module','$lesson','$date_uploaded')";
+        $sql = "INSERT INTO tutorial_video (title,description,youtube_id,module,date_uploaded) VALUES ('$title','$description','$youtube_id','$module','$date_uploaded')";
         $c_sql = mysqli_query($con, $sql);
 
         if ($c_sql) {
@@ -96,6 +100,8 @@ error_reporting(0);
                 <th scope="col">Title</th>
                 <th scope="col">Description</th>
                 <th scope="col">Youtube_ID</th>
+                <th scope="col">Module</th>
+                <th scope="col">Edit</th>
                 <th scope="col">Delete</th>
               </tr>
             </thead>
@@ -115,6 +121,10 @@ error_reporting(0);
                 <td><?php echo $row['title']; ?></td>
                 <td><?php echo $row['description']; ?></td>
                 <td><?php echo $row['youtube_id']; ?></td>
+                <td><?php echo $row['module']; ?></td>
+                <td>
+                    <a href="edit_uploaded_course.php<?php echo '?id='.$session_id; ?>">Edit</a>
+                </td>
                 <td>
                     <a href="<?php echo '?delete='.$session_id; ?>">Delete</a>
                 </td>
