@@ -50,8 +50,8 @@ if ($result->num_rows > 0) {
          $headers = array(
                 "MIME-Version" =>"1.0",
                 "Content-Type" =>"text/html;charset=UTF-8",
-                "From" =>"Metareels support@metareels.pro",
-                "Reply-To" =>"support@metareels.pro"
+                "From" =>"Staflate support@staflate.pro",
+                "Reply-To" =>"support@staflate.pro"
          );
 
           ob_start();
@@ -96,8 +96,8 @@ unset($_SESSION['refer']);
          $headers = array(
                 "MIME-Version" =>"1.0",
                 "Content-Type" =>"text/html;charset=UTF-8",
-                "From" =>"Metareels support@metareels.pro",
-                "Reply-To" =>"support@metareels.pro"
+                "From" =>"Staflate support@staflate.pro",
+                "Reply-To" =>"support@staflate.pro"
          );
 
           ob_start();
@@ -138,7 +138,7 @@ ob_end_flush();
     <meta name="author" content="Softnio">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="img/favicon.png"><!-- Site Title  -->
-    <title>Metareels</title><!-- Vendor Bundle CSS -->
+    <title>Staflate</title><!-- Vendor Bundle CSS -->
     <link rel="stylesheet" href="../assets/css/vendor.bundle49f7.css?ver=104"><!-- Custom styles for this template -->
     <link rel="stylesheet" href="../assets/css/style49f7.css?ver=104" id="layoutstyle">
     <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','../../www.google-analytics.com/analytics.js','ga');ga('create', 'UA-91615293-2', 'auto');ga('send', 'pageview');</script>

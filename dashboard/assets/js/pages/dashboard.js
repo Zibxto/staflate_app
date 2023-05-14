@@ -14,7 +14,7 @@ $( document ).ready(function() {
             hideMethod: 'fadeOut',
             timeOut: 5000
         };
-        toastr.success('Welcome to Metareels!');
+        toastr.success('Welcome to Staflate!');
     }, 1800);
     
     var flot2 = function () {

@@ -90,7 +90,7 @@ td {
                                     </div>
                                     <div class="card-body">
 
-                                        <input class="h5" type="text" value="https://metareels.pro/index.php?refer=<?= $row['referral_code']; ?>" id="myInput" style="border: none; width: 100%;">
+                                        <input class="h5" type="text" value="https://staflate.pro/index.php?refer=<?= $row['referral_code']; ?>" id="myInput" style="border: none; width: 100%;">
 
                                         <div>
                                         <button class="btn btn-success btn-block" onclick="myFunction()" onmouseout="outFunc()">
@@ -163,7 +163,7 @@ td {
 
 
                 <div class="page-footer">
-                    <p class="no-s"><?php echo date("Y"); ?> &copy;Copyright Metareels.</p>
+                    <p class="no-s"><?php echo date("Y"); ?> &copy;Copyright Staflate.</p>
                 </div>
             </div><!-- Page Inner -->
         </main><!-- Page Content -->

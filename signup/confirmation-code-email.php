@@ -9,7 +9,7 @@ session_start();
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Metareels</title>
+    <title>Staflate</title>
     <style>
       /* -------------------------------------
           GLOBAL RESETS
@@ -360,7 +360,7 @@ session_start();
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                     <tr>
                         <td>
-                            <img src="https://metareels.pro/img/logo.png">
+                            <img src="https://staflate.pro/img/logo.png">
                         </td>
                     </tr>
                     <tr>
@@ -378,7 +378,7 @@ session_start();
                                 <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                                   <tbody>
                                     <tr>
-                                      <td> <a href="https://metareels.pro/signup/verify_email.php" target="_blank">Proceed</a> </td>
+                                      <td> <a href="https://staflate.pro/signup/verify_email.php" target="_blank">Proceed</a> </td>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -387,9 +387,9 @@ session_start();
                           </tbody>
                         </table> <br>
                         <h3>How do I know this email is from Metareel?</h3>
-                        <p>The link provided in this email starts with <a href="https://metareels.pro">https://</a> and contain <a href="https://metareels.pro">metareels.pro</a> so you know it is from us.</p>
+                        <p>The link provided in this email starts with <a href="https://staflate.pro">https://</a> and contain <a href="https://staflate.pro">staflate.pro</a> so you know it is from us.</p>
                         <p>Thanks, <br>
-                        The Metareels Team</p>
+                        The Staflate Team</p>
                       </td>
                     </tr>
                   </table>
@@ -411,7 +411,7 @@ session_start();
                 </tr> -->
                 <tr>
                   <td class="content-block powered-by">
-                    Copyright © <?= date("Y"); ?> Metareels
+                    Copyright © <?= date("Y"); ?> Staflate
                   </td>
                 </tr>
               </table>

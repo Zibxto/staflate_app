@@ -19,13 +19,23 @@ if (isset($_GET['signout'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.png">
-    <title>Metareels</title>
+    <title>Staflate</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/line-awesome.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/addedstyle.css">
+
+    <style>
+        @media screen and (max-width: 600px) {
+
+            .container a img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -44,7 +54,7 @@ if (isset($_GET['signout'])) {
     <!-- navbar -->
     <div id="navbar" class="navbar navbar-expand-lg justify-content-center align-items-center">
         <div class="container">
-            <a href="" class="navbar-brand"><img src="img/logo.png" alt=""></a>
+            <a href="" class="navbar-brand"><img src="img/logo.png" style="width: 50%; height: 50%;" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			        <i class="la la-bars"></i>
 			    </button>
@@ -366,22 +376,22 @@ if (isset($_GET['signout'])) {
     <div id="moreinfo" class="about">
         <div class="container" style="margin-top: -30%;">
             <h4 style="color: #bf0404;">30 DAY CONDITIONAL GUARANTEE</h4>
-            <legend>You Are Covered By Metareels 30-Day Refund Policy</legend> <br><br>
+            <legend>You Are Covered By Staflate 30-Day Refund Policy</legend> <br><br>
 
             <h6 class="text-start">You might be thinking:</h6> <br>
             <h6 class="text-start">Is this product worth it?</h6>
             <p class="text-start">
                 Will this product really deliver on these promises?
-                The good thing is that since you are purchasing Facebook Reels PBP/API Dollarprint Blueprint on Metareels you are covered by Metareels 30-day refund policy.
+                The good thing is that since you are purchasing Facebook Reels PBP/API Dollarprint Blueprint on Staflate you are covered by Staflate 30-day refund policy.
 
             </p>
             <p class="text-start">
-                Metareels is known to be the most trusted and customer friendly platform for all reels digital content creators and non creators.
+                Staflate is known to be the most trusted and customer friendly platform for all reels digital content creators and non creators.
             </p>
 
-            <h6 class="text-start">What the Metareels refund policy means is that:</h6>
+            <h6 class="text-start">What the Staflate refund policy means is that:</h6>
             <p class="text-start">
-                You have 30 days from the day you ordered this product to check it. If this product does not contain everything promised on this page, then you are entitled to a refund and all you have to do is reach out to the Metareels customer support to get your money back.
+                You have 30 days from the day you ordered this product to check it. If this product does not contain everything promised on this page, then you are entitled to a refund and all you have to do is reach out to the Staflate customer support to get your money back.
             </p>
 
             <h6 class="text-start">So what are you waiting for?</h6>
@@ -396,7 +406,7 @@ if (isset($_GET['signout'])) {
             <button class="button font-weight-bold" style="background-color: #bf0404;"><a href="./signup/" style="color: aliceblue;"> Get The Program Now</a></button>
 
             <p>
-                Metareels Affiliate Network  provide opportunity for any one from anywhere in the world to learn from expert. You can choose what you want to become on social media platform, with Metareels you can become it.
+                Staflate Affiliate Network  provide opportunity for any one from anywhere in the world to learn from expert. You can choose what you want to become on social media platform, with Staflate you can become it.
             </p>
 
 
@@ -430,7 +440,7 @@ if (isset($_GET['signout'])) {
                 </div> -->
                 <div class="col-md col-sm-6">
                     <div class="cp">
-                        <span> <?php echo date("Y"); ?>&copy;Copyright Metareels </span>
+                        <span> <?php echo date("Y"); ?>&copy;Copyright Staflate </span>
                     </div>
                 </div>
             </div>

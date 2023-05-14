@@ -4,12 +4,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/zibxto/metareels_app">
+  <a href="https://github.com/zibxto/Staflate_app">
     <img src="img/logo.png" alt="Logo" width="40%" height="40%">
   </a>
 </div>
 
-  <h2 align="center">METAREELS</h2>
+  <h2 align="center">Staflate</h2>
 
   <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -44,7 +44,7 @@ To set up this application, you need a php environment
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/zibxto/metareels_app.git
+   git clone https://github.com/zibxto/Staflate_app.git
    ```
 2. Install XAMPP
     ```sh
@@ -71,7 +71,7 @@ Don't forget to give the project a star! Thanks again!
 
 Christian Aziba - christianaziba@gmail.com
 
-Project Link: [https://github.com/zibxto/metareels_app](https://github.com/zibxto/metareels_app)
+Project Link: [https://github.com/zibxto/Staflate_app](https://github.com/zibxto/Staflate_app)
 
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555

@@ -12,7 +12,7 @@
                 </div> -->
                 <div class="col-md col-sm-6">
                     <div class="cp">
-                        <span> Copyright © <?= date("Y"); ?> Metareels </span>
+                        <span> Copyright © <?= date("Y"); ?> Staflate </span>
                     </div>
                 </div>
             </div>

@@ -18,8 +18,8 @@ include '../config/db_conn.php';
          $headers = array(
                 "MIME-Version" =>"1.0",
                 "Content-Type" =>"text/html;charset=UTF-8",
-                "From" =>"Metareels support@metareels.pro",
-                "Reply-To" =>"support@metareels.pro"
+                "From" =>"Staflate support@staflate.pro",
+                "Reply-To" =>"support@staflate.pro"
          );
 
           ob_start();

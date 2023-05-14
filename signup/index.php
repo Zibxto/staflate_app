@@ -20,7 +20,7 @@ if (isset($_GET['email_exist'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/favicon.png">
-    <title>Metareels</title>
+    <title>Staflate</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/line-awesome.min.css">
     <link rel="stylesheet" href="../css/magnific-popup.css">
@@ -35,7 +35,7 @@ if (isset($_GET['email_exist'])) {
 
 <section class="h-10 gradient-custom">
   <div class="logo">
-         <a href="../"> <img src="../img/logo.png"> </a>
+         <a href="../"> <img src="../img/logo.png" style="width: 10%; height:10%;"> </a>
     </div>
   <div class="container h-10 col-xl-5 col-lg-5 col-md-12 col-sm-12 p-5" style="box-shadow:0px 4px 4px 0px black">
     <div class="row d-flex justify-content-center align-items-center h-10">

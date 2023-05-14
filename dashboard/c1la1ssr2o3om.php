@@ -63,7 +63,7 @@ include 'header.php';
 
 
                 <div class="page-footer">
-                    <p class="no-s"><?php echo date("Y"); ?> &copy;Copyright Metareels.</p>
+                    <p class="no-s"><?php echo date("Y"); ?> &copy;Copyright Staflate.</p>
                 </div>
             </div><!-- Page Inner -->
         </main><!-- Page Content -->

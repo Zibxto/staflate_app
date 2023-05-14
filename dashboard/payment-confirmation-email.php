@@ -8,7 +8,7 @@ session_start();
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Metareels</title>
+    <title>Staflate</title>
     <style>
       /* -------------------------------------
           GLOBAL RESETS
@@ -359,21 +359,21 @@ session_start();
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                     <tr>
                         <td>
-                            <img src="https://metareels.pro/img/logo.png">
+                            <img src="https://staflate.pro/img/logo.png">
                         </td>
                     </tr>
                     <tr>
                       <td>
-                        <h1>Metareels Affiliate Network</h1>
+                        <h1>Staflate Affiliate Network</h1>
                         <p>Hello <?= $firstname; ?>,</p>
                         <hp>Your Account is Now Activated</p>
-                          <p>Welcome To The Metareels Affiliate Network. You are now a full member of the Metareels Affiliate Network</p>
+                          <p>Welcome To The Staflate Affiliate Network. You are now a full member of the Staflate Affiliate Network</p>
 
-                          <p>You can now start recommending courses on Metareels and start earning immediately.</p>
+                          <p>You can now start recommending courses on Staflate and start earning immediately.</p>
 
-                          <p>Please note that You can also recommend the Metareels and earn a minimum of 50% on their signup fee.</p>
+                          <p>Please note that You can also recommend the Staflate and earn a minimum of 50% on their signup fee.</p>
 
-                          <p style="color:red;">Here is your referral code: <br> https://metareels.pro/signup/index.php?refer=<?= $referral_code ?></p>
+                          <p style="color:red;">Here is your referral code: <br> https://staflate.pro/signup/index.php?refer=<?= $referral_code ?></p>
 
                         <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
                           <tbody>
@@ -382,10 +382,10 @@ session_start();
                                 <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                                   <tbody>
                                     <tr>
-                                      <td> <a href="https://bit.ly/Followmetareelsinstagram" target="_blank">Click Here to Join our INSTAGRAM</a> </td>
+                                      <td> <a href="https://bit.ly/FollowStaflateinstagram" target="_blank">Click Here to Join our INSTAGRAM</a> </td>
                                     </tr>
                                     <tr>
-                                      <td> <a href="https://bit.ly/MetareelswhatsAppGroup" target="_blank">Click Here to Join our Whatsapp Mentorship Group</a> </td>
+                                      <td> <a href="https://bit.ly/StaflatewhatsAppGroup" target="_blank">Click Here to Join our Whatsapp Mentorship Group</a> </td>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -394,13 +394,13 @@ session_start();
                           </tbody>
                         </table> <br>
                         <h3>How do I know this email is from Metareel?</h3>
-                        <p>The link provided in this email starts with <a href="https://metareels.pro">https://</a> and contain <a href="https://metareels.pro">metareels.pro</a> so you know it is from us.</p>
+                        <p>The link provided in this email starts with <a href="https://staflate.pro">https://</a> and contain <a href="https://staflate.pro">staflate.pro</a> so you know it is from us.</p>
 
 
                         <p> Welcome Once Again <?= $firstname; ?></p>
 
                         <p>We Value Your Success</p>
-                        <p>The Metareels Team</p>
+                        <p>The Staflate Team</p>
                       </td>
                     </tr>
                   </table>
@@ -422,7 +422,7 @@ session_start();
                 </tr> -->
                 <tr>
                   <td class="content-block powered-by">
-                    Copyright © <?= date("Y"); ?> Metareels
+                    Copyright © <?= date("Y"); ?> Staflate
                   </td>
                 </tr>
               </table>
