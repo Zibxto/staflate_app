@@ -61,50 +61,6 @@ include 'header.php';
 
                 <div id="main-wrapper">
                     <div class="row">
-                        <div class="col-lg-4 col-md-4">
-                            <div class="panel info-box panel-white">
-                                <div class="panel-body">
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <?php 
-
-                                                $module = 1;
-                                                // $m_len = 2;
-                                                 
-                                                while ($module < 3)
-                                                {
-
-                                                $sql = query("SELECT * FROM tutorial_video WHERE module=$module");
-                                                confirm($sql);
-                                            ?>
-                                            <button class="accordion btn btn-success btn-block">Module <?= $module; ?></button>
-                                            <?php 
-                                                while ($row = fetch_array($sql)) {
-
-                                            ?>
-                                            <div class="panell" style="font-size: 16px">
-                                            <a href="__classroom.php?vid=<?php echo $row['youtube_id'] ?>"><?= $row['title'];?></a>
-                                            </div>
-
-                                        <?php 
-                                                
-
-                                                } 
-
-                                                // $m_len++;
-
-                                                $module++;
-                                            }  
-                                
-                                         ?>
-                                        </div>
-                                        
-                                    </div>
-                                  
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="col-lg-8 col-md-8">
                             <?php
                             $vid = $_GET['vid'];
@@ -135,6 +91,50 @@ include 'header.php';
                                     </div>
                                       
                                   </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4">
+                            <div class="panel info-box panel-white">
+                                <div class="panel-body">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <?php 
+
+                                                $module = 1;
+                                                // $m_len = 2;
+                                                 
+                                                while ($module < 16)
+                                                {
+
+                                                $sql = query("SELECT * FROM tutorial_video WHERE module=$module");
+                                                confirm($sql);
+                                            ?>
+                                            <button class="accordion btn btn-success btn-block">Module <?= $module; ?></button>
+                                            <?php 
+                                                while ($row = fetch_array($sql)) {
+
+                                            ?>
+                                            <div class="panell" style="font-size: 16px">
+                                            <a href="__classroom.php?vid=<?php echo $row['youtube_id'] ?>"><?= $row['title'];?></a>
+                                            </div>
+
+                                        <?php 
+                                                
+
+                                                } 
+
+                                                // $m_len++;
+
+                                                $module++;
+                                            }  
+                                
+                                         ?>
+                                        </div>
+                                        
+                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>
