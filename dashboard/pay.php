@@ -119,7 +119,7 @@ function payWithPaystack(e) {
   let handler = PaystackPop.setup({
     key: '', // Replace with your public key
     email: document.getElementById("email-address").value,
-    amount: 10000 * 100,
+    amount: 5000 * 100,
     firstname: document.getElementById("first-name").value,
     lastname: document.getElementById("last-name").value,
     // currency: 'USD' - only add this part if you are recieving money into a dom. account
