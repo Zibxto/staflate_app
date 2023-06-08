@@ -66,14 +66,14 @@ if (mysqli_num_rows($sql) > 0) {
               <li
                 class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
                 Course
-                <span>$15</span>
+                <span>$7</span>
               </li>
               <li
                 class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
                 <div>
                   <strong>Total amount</strong>
                 </div>
-                <span><strong>$15</strong></span>
+                <span><strong>$7</strong></span>
               </li>
             </ul>
 
@@ -117,7 +117,7 @@ function payWithPaystack(e) {
   e.preventDefault();
 
   let handler = PaystackPop.setup({
-    key: 'pk_test_3d028972e9d182eddfc18bff3ad90f4ffcac4967', // Replace with your public key
+    key: '', // Replace with your public key
     email: document.getElementById("email-address").value,
     amount: 10000 * 100,
     firstname: document.getElementById("first-name").value,

@@ -24,7 +24,7 @@ if ($ref =='') {
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => "GET",
     CURLOPT_HTTPHEADER => array(
-      "Authorization: Bearer sk_test_7e51739b1e51e1609027b8e124a7e9c5e4c0b9f1",
+      "Authorization: Bearer ", // Replace with your secret key after the 'Bearer'
       "Cache-Control: no-cache",
     ),
   ));

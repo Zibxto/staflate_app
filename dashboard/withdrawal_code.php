@@ -19,8 +19,6 @@ $row = fetch_array($ru_sql);
 
 ?>
 
-
-
 <?php
 
                 if (isset($_POST['withdrawal'])) {
