@@ -223,7 +223,7 @@ if (isset($_GET['signout'])) {
 
             <h4>TOTAL VALUE - $3,400</h4>
             <h5 style="color:#bf0404">(If you learn them separately)</h5>
-            <h5 style="color:#bf0404">NOW $7</h5>
+            <h5 style="color:#bf0404">NOW $75</h5>
 
             
            
@@ -240,7 +240,7 @@ if (isset($_GET['signout'])) {
                     <h4 style="color: darkolivegreen;">Today special offers</h4>
                     <img src="img/space1.jpeg" alt="">
                     <h3>COME JOIN US</h3>
-                    <a href="./signup/"><button class="button">Get started for only<b class="fs-5">$7</b></button></a>
+                    <a href="./signup/"><button class="button">Get started for only<b class="fs-5">$75</b></button></a>
                 </div>
             
                 <div class="col-md col-sm-6">
