@@ -13,7 +13,7 @@ if (mysqli_num_rows($sql) < 1) {
 }
 
 $ru_sql = query("SELECT * FROM users WHERE id='$session_id'");
-confirm($sql);
+confirm($ru_sql);
 $row = fetch_array($ru_sql);
 
 

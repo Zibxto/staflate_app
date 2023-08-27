@@ -86,11 +86,11 @@ td {
                                 <div class="panel-body">
                                   <div class="card">
                                     <div class="card-header">
-                                        <p>Share your referral link or code to your friends and family to earn 50%  when they sign up.</p>
+                                        <p>Share your referral link or code to your friends and family to earn 65% commission  when they sign up.</p>
                                     </div>
                                     <div class="card-body">
 
-                                        <input class="h5" type="text" value="https://staflate.pro/index.php?refer=<?= $row['referral_code']; ?>" id="myInput" style="border: none; width: 100%;">
+                                        <input class="h5" type="text" value="https://staflate.pro/home.php?refer=<?= $row['referral_code']; ?>" id="myInput" style="border: none; width: 100%;">
 
                                         <div>
                                         <button class="btn btn-success btn-block" onclick="myFunction()" onmouseout="outFunc()">
@@ -130,8 +130,8 @@ td {
                                                         echo "Earned";
                                                         $count++;
                                                 //update all-time-earning on users table
-                                                 $all_time_earning = $count * 7.5;
-                                                 $acct_bal = $count * 7.5;
+                                                 $all_time_earning = $count * 9.75;
+                                                 $acct_bal = $count * 9.75;
                                                  
                                                  $ate_q = query("UPDATE users SET all_time_earning='$all_time_earning', acct_bal='$acct_bal' WHERE id='$session_id'");
                                                  confirm($ate_q);
